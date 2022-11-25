@@ -23,6 +23,11 @@ body {
     display: flex;
     flex-direction: column;
     background-color: yellow;
+    padding-left: calc(100%/16*4);
+    padding-right: calc(100%/16*4);
+    float: left;
+
+    
 }
 
 .main {
@@ -31,6 +36,10 @@ body {
 
 .header, .footer {
     flex: 0 0 auto;
+    flex-direction: column;
+    border: 4px solid;
+    border-color: black;
+
 }
 
 /* Header */
@@ -38,6 +47,20 @@ body {
 .header, .site-header {
     display: flex;
     justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar */
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.2em 1em;
 }
 
 /* Title */
@@ -71,7 +94,7 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    border-top: 2px solid #222;
 }
 
 .footer a {
@@ -87,7 +110,7 @@ body {
 body {
     font-family: sans-serif;
     line-height: 1.5rem;
-    color: #444;
+    color: black;
 }
 
 p, td, th, li, dd {
