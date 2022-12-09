@@ -4,5 +4,6 @@ Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/showgun666/design-portfolio
-      icon: github
+      icon: fab fa-github
+      icontoo: fas fa-user
 ---
