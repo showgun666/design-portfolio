@@ -18,7 +18,12 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -27,7 +32,6 @@ body {
     width: calc(100% / 12 * 10);
     padding-left: calc(100% / 12 * 1);
     padding-right: calc(100% / 12 * 1);
-    
 }
 
 .main {
@@ -45,17 +49,21 @@ body {
     background-color: $accent-color;
     padding-left: 0.5em;
     padding-right: 0.5em;
+
     .social {
         display: flex;
         align-items: center;
-        p {
-            padding-left: 0.5em;
-        }
+    }
+}
+
+.social {
+    p {
+        padding-left: 0.5em;
     }
 }
 
 .nav {
-    border-top: 4px solid black;
+    border-top: 4px solid $font-color;
     text-align: center;
     background-color: $accent-color;
 }
@@ -64,8 +72,6 @@ body {
     img {
         width: 100%;
         height: auto;
-        padding-left: 0em;
-        padding-right: 0em;
     }
 }
 
@@ -73,6 +79,7 @@ body {
     display: flex;
     padding-left: 0.5em;
     padding-right: 0.5em;
+
     .social {
         padding-top: 1em;
         padding-right: 0.5em;
