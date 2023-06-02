@@ -10,6 +10,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'blockquotes';
 @import 'code';
 
+@import 'kmom03';
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 * {
@@ -22,9 +24,9 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     background-color: $background-color;
-    width: calc(100% / 12 * 8);
-    padding-left: calc(100% / 12 * 2);
-    padding-right: calc(100% / 12 * 2);
+    width: calc(100% / 12 * 10);
+    padding-left: calc(100% / 12 * 1);
+    padding-right: calc(100% / 12 * 1);
     
 }
 
