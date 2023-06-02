@@ -1,0 +1,7 @@
+<ul>
+    {% for page in pages("technology") if page.title and not page.hidden %}
+        <li{% if page.id==current_page.id %} class="active" {% endif %}>
+            <a href="{{ page.url }}">{{ page.title }}</a>
+        </li>
+    {% endfor %}
+</ul>
