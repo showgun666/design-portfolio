@@ -6472,7 +6472,7 @@ pre code {
 }
 
 .course-box:hover {
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 
@@ -6534,13 +6534,11 @@ pre code {
 }
 
 .technology-box {
-  border: 1px solid #ee6c4d;
   padding: 2em;
 }
 
 .technology-side {
   width: 30%;
-  border: none;
 }
 .technology-side ul {
   list-style-type: none;
@@ -6548,6 +6546,7 @@ pre code {
 }
 
 .technology-content {
+  border: 1px solid #ee6c4d;
   width: auto;
 }
 
@@ -6597,7 +6596,12 @@ pre code {
   font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -6627,12 +6631,13 @@ body {
   display: flex;
   align-items: center;
 }
-.header .social p {
+
+.social p {
   padding-left: 0.5em;
 }
 
 .nav {
-  border-top: 4px solid black;
+  border-top: 4px solid #000;
   text-align: center;
   background-color: #ee6c4d;
 }
@@ -6640,8 +6645,6 @@ body {
 .logo img {
   width: 100%;
   height: auto;
-  padding-left: 0em;
-  padding-right: 0em;
 }
 
 .container {
