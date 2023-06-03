@@ -6,4 +6,10 @@ Social:
       url: https://github.com/showgun666/design-portfolio
       icon: fab fa-github
       icontoo: fas fa-user
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---
