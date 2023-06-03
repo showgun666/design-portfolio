@@ -5,7 +5,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import 'base';
+@import 'variables-light';
 
 @import 'blockquotes';
 @import 'code';
@@ -14,74 +15,3 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
-* {
-    font-family: 'Roboto', sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Open Sans', sans-serif;
-}
-
-body {
-    background-color: $background-color;
-    width: calc(100% / 12 * 10);
-    padding-left: calc(100% / 12 * 1);
-    padding-right: calc(100% / 12 * 1);
-}
-
-.main {
-    font-family: 'Open Sans', sans-serif;
-    
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-}
-
-* {
-    color: $font-color;
-}
-
-.header {
-    background-color: $accent-color;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-
-    .social {
-        display: flex;
-        align-items: center;
-    }
-}
-
-.social {
-    p {
-        padding-left: 0.5em;
-    }
-}
-
-.nav {
-    border-top: 4px solid $font-color;
-    text-align: center;
-    background-color: $accent-color;
-}
-
-.logo {
-    img {
-        width: 100%;
-        height: auto;
-    }
-}
-
-.container {
-    display: flex;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-
-    .social {
-        padding-top: 1em;
-        padding-right: 0.5em;
-    }
-}
