@@ -1,0 +1,61 @@
+.kmom04-page {
+    display: grid;
+    grid-template-columns: 30% 30% auto;
+    grid-template-rows: 100px 200px 200px 200px 200px;
+    gap: 2em 2em;
+}
+
+.content-box {
+    border: 1px solid $accent-color;
+    padding: 2em;
+    display: block;
+    position: relative;
+}
+
+.content-box:hover {
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.analysis {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+
+.analysis-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.analysis-box {
+    padding: 2em;
+}
+
+.analysis-side {
+    width: 30%;
+
+    ul {
+        list-style-type: none;
+        padding: 1em;
+    }
+}
+
+.analysis-content {
+    border: 1px solid $accent-color;
+    width: auto;
+}
+
+// Responsivitet
+@media (max-width: 767px) {
+    .kmom04-page {
+        grid-template-columns: 95%;
+    }
+
+    .analysis-side {
+        display: none;
+    }
+
+    .analysis-content {
+        width: 100%;
+    }
+}
