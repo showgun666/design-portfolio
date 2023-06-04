@@ -5,8 +5,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 
 @import '../../node_modules/normalize.css/normalize';
-@import 'base';
 @import 'variables-dark';
+@import 'base';
 
 @import 'blockquotes';
 @import 'code';
