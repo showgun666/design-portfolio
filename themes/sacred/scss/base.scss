@@ -1,5 +1,30 @@
 * {
     font-family: 'Roboto', sans-serif;
+    color: $font-color;
+}
+
+html {
+    font-size: 100%;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 1.4rem;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 2.1rem;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 2.8rem;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 3.5rem;
 }
 
 h1,
@@ -12,6 +37,7 @@ h6 {
 }
 
 body {
+    line-height: 1.4;
     background-color: $background-color;
     width: calc(100% / 12 * 8);
     padding-left: calc(100% / 12 * 2);
@@ -19,12 +45,17 @@ body {
 }
 // Responsivitet
 @media (max-width: 767px) {
+    html {
+        font-size: 112.5%;
+    }
+
     body {
         width: calc(100% / 16 * 14);
         padding-left: calc(100% / 16 * 1);
         padding-right: calc(100% / 16 * 1);
     }
 }
+
 .main {
     font-family: 'Open Sans', sans-serif;
     
@@ -32,18 +63,29 @@ body {
     padding-right: 0.5em;
 }
 
-* {
-    color: $font-color;
-}
 
 .header {
-    background-color: $accent-color;
+    background-color: $background-alternative-color;
+    color: $font-alternative-color;
     padding-left: 0.5em;
     padding-right: 0.5em;
 
     .social {
         display: flex;
         align-items: center;
+    }
+
+    .nav a {
+        font-weight: bold;
+        padding: 1rem;
+        text-decoration: none;
+        color: $font-color;
+        text-transform: uppercase;
+    }
+
+    .nav a:hover {
+        background-color: $accent-color;
+        color: $font-alternative-color;
     }
 }
 
@@ -54,9 +96,12 @@ body {
 }
 
 .nav {
-    border-top: 4px solid $font-color;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+    border-top: 4px solid $accent-color;
     text-align: center;
-    background-color: $accent-color;
 }
 
 .logo {
