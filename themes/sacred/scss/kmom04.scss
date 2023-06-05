@@ -32,8 +32,6 @@
 }
 
 .analysis-side {
-    width: 30%;
-
     ul {
         list-style-type: none;
         padding: 1em;
@@ -43,6 +41,29 @@
 .analysis-content {
     border: 1px solid $accent-color;
     width: auto;
+}
+
+.analyser {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+
+.kmom04 {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+
+}
+
+.kmom05 {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+
+}
+
+.kmom06 {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+
 }
 
 // Responsivitet
