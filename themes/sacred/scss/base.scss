@@ -43,18 +43,7 @@ body {
     padding-left: calc(100% / 12 * 2);
     padding-right: calc(100% / 12 * 2);
 }
-// Responsivitet
-@media (max-width: 767px) {
-    html {
-        font-size: 112.5%;
-    }
 
-    body {
-        width: calc(100% / 16 * 14);
-        padding-left: calc(100% / 16 * 1);
-        padding-right: calc(100% / 16 * 1);
-    }
-}
 
 .main {
     font-family: 'Open Sans', sans-serif;
@@ -119,5 +108,36 @@ body {
     .social {
         padding-top: 1em;
         padding-right: 0.5em;
+    }
+}
+
+ul {
+    flex-wrap: wrap;
+}
+
+.nav-button {
+    padding: 1em 1em;
+    letter-spacing: 0.1em;
+}
+
+// Responsivitet
+@media (max-width: 767px) {
+    html {
+        font-size: 112.5%;
+    }
+
+    body {
+        width: calc(100% / 16 * 14);
+        padding-left: calc(100% / 16 * 1);
+        padding-right: calc(100% / 16 * 1);
+    }
+
+    .nav {
+        justify-content: center;
+    }
+
+    .nav-button {
+        padding: 0 1em;
+        letter-spacing: 0.1em;
     }
 }
