@@ -5,13 +5,13 @@ Template: analysis
 ---
 
 <div class="course-box kmom04">
-    <h2>Rapport KMOM04 - Nyhetssajter</h2>
+    <h2>Rapport KMOM04 - Färg</h2>
     <a href="./analysis/kmom04" class="link"></a>
 </div>
 
 <div class="course-box kmom05">
-    <h2>KMOM05</h2>
-    <a href="./analysis/kmom05" class="link"></a>
+    <h2>KMOM05 - Laddtid</h2>
+    <a href="./analysis/02_load" class="link"></a>
 </div>
 
 <div class="course-box kmom06">
