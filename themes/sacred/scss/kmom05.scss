@@ -28,3 +28,29 @@ video {
     height: 40vh;
     width: 100%;
 }
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    a {
+        width: 100%;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: $mobile-width) {
+    .gallery-container {
+        grid-template-columns: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+}
