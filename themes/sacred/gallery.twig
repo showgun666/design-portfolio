@@ -1,0 +1,169 @@
+{% include 'incl/header.twig' %}
+<body>
+    {% include 'incl/nav.twig' %}
+    <div class="main" role="main">
+        <div class="gallery-page">
+            <h1>{{ meta.description }}</h1>
+            <div class="gallery-container">
+                {# a wrap, för väldigt breda views så visas bilderna i full storlek, om view är lite lagom bred så visar vi 300px bilder, om view är lite mindre så visar vi 250px bilder, om view är smal så växlar layout till 1 kolumn, så då är bilderna större igen, om view är ännu smalare så går vi ned i storlek igen. #}
+                <a href="{{ base_url }}/image/gallery/bild1.png">
+                    <img 
+                        class="flash-img"
+                        src="{{ base_url }}/image/gallery/bild1.png"
+                        srcset="
+                            {{ base_url }}/image/gallery/bild1.png&q=60&w=300&save-as=jpg 300w,
+                            {{ base_url }}/image/gallery/bild1.png&q=60&w=250&save-as=jpg 250w,
+                            {{ base_url }}/image/gallery/bild1.png&q=60&save-as=jpg 512w"
+                        sizes="
+                            (max-width: 400px) 300px,
+                            (max-width: 767px) 512px,
+                            (max-width: 1000px) 250px,
+                            (max-width: 1400px) 300px,
+                            512px"
+                        alt="Galleribild"
+                    >
+                </a>
+                <a href="{{ base_url }}/image/gallery/bild2.png">
+                    <img 
+                        class="flash-img"
+                        src="{{ base_url }}/image/gallery/bild2.png"
+                        srcset="
+                            {{ base_url }}/image/gallery/bild2.png&q=60&w=300&save-as=jpg 300w,
+                            {{ base_url }}/image/gallery/bild2.png&q=60&w=250&save-as=jpg 250w,
+                            {{ base_url }}/image/gallery/bild2.png&q=60&save-as=jpg 512w"
+                        sizes="
+                            (max-width: 400px) 300px,
+                            (max-width: 767px) 512px,
+                            (max-width: 1000px) 250px,
+                            (max-width: 1400px) 300px,
+                            512px"
+                        alt="Galleribild"
+                    >
+                </a>
+                <a href="{{ base_url }}/image/gallery/bild3.png">
+                    <img 
+                        class="flash-img"
+                        src="{{ base_url }}/image/gallery/bild3.png"
+                        srcset="
+                            {{ base_url }}/image/gallery/bild3.png&q=60&w=300&save-as=jpg 300w,
+                            {{ base_url }}/image/gallery/bild3.png&q=60&w=250&save-as=jpg 250w,
+                            {{ base_url }}/image/gallery/bild3.png&q=60&save-as=jpg 512w"
+                        sizes="
+                            (max-width: 400px) 300px,
+                            (max-width: 767px) 512px,
+                            (max-width: 1000px) 250px,
+                            (max-width: 1400px) 300px,
+                            512px"
+                        alt="Galleribild"
+                    >
+                </a>
+                <a href="{{ base_url }}/image/gallery/bild4.png">
+                    <img 
+                        class="flash-img"
+                        src="{{ base_url }}/image/gallery/bild4.png"
+                        srcset="
+                            {{ base_url }}/image/gallery/bild4.png&q=60&w=300&save-as=jpg 300w,
+                            {{ base_url }}/image/gallery/bild4.png&q=60&w=250&save-as=jpg 250w,
+                            {{ base_url }}/image/gallery/bild4.png&q=60&save-as=jpg 512w"
+                        sizes="
+                            (max-width: 400px) 300px,
+                            (max-width: 767px) 512px,
+                            (max-width: 1000px) 250px,
+                            (max-width: 1400px) 300px,
+                            512px"
+                        alt="Galleribild"
+                    >
+                </a>
+                <a href="{{ base_url }}/image/gallery/bild5.png">
+                    <img 
+                        class="flash-img"
+                        src="{{ base_url }}/image/gallery/bild5.png"
+                        srcset="
+                            {{ base_url }}/image/gallery/bild5.png&q=60&w=300&save-as=jpg 300w,
+                            {{ base_url }}/image/gallery/bild5.png&q=60&w=250&save-as=jpg 250w,
+                            {{ base_url }}/image/gallery/bild5.png&q=60&save-as=jpg 512w"
+                        sizes="
+                            (max-width: 400px) 300px,
+                            (max-width: 767px) 512px,
+                            (max-width: 1000px) 250px,
+                            (max-width: 1400px) 300px,
+                            512px"
+                        alt="Galleribild"
+                    >
+                </a>
+                <a href="{{ base_url }}/image/gallery/bild6.png">
+                    <img 
+                        class="flash-img"
+                        src="{{ base_url }}/image/gallery/bild6.png"
+                        srcset="
+                            {{ base_url }}/image/gallery/bild6.png&q=60&w=300&save-as=jpg 300w,
+                            {{ base_url }}/image/gallery/bild6.png&q=60&w=250&save-as=jpg 250w,
+                            {{ base_url }}/image/gallery/bild6.png&q=60&save-as=jpg 512w"
+                        sizes="
+                            (max-width: 400px) 300px,
+                            (max-width: 767px) 512px,
+                            (max-width: 1000px) 250px,
+                            (max-width: 1400px) 300px,
+                            512px"
+                        alt="Galleribild"
+                    >
+                </a>
+                <a href="{{ base_url }}/image/gallery/bild7.png">
+                    <img 
+                        class="flash-img"
+                        src="{{ base_url }}/image/gallery/bild7.png"
+                        srcset="
+                            {{ base_url }}/image/gallery/bild7.png&q=60&w=300&save-as=jpg 300w,
+                            {{ base_url }}/image/gallery/bild7.png&q=60&w=250&save-as=jpg 250w,
+                            {{ base_url }}/image/gallery/bild7.png&q=60&save-as=jpg 512w"
+                        sizes="
+                            (max-width: 400px) 300px,
+                            (max-width: 767px) 512px,
+                            (max-width: 1000px) 250px,
+                            (max-width: 1400px) 300px,
+                            512px"
+                        alt="Galleribild"
+                    >
+                </a>
+                <a href="{{ base_url }}/image/gallery/bild8.png">
+                    <img 
+                        class="flash-img"
+                        src="{{ base_url }}/image/gallery/bild8.png"
+                        srcset="
+                            {{ base_url }}/image/gallery/bild8.png&q=60&w=300&save-as=jpg 300w,
+                            {{ base_url }}/image/gallery/bild8.png&q=60&w=250&save-as=jpg 250w,
+                            {{ base_url }}/image/gallery/bild8.png&q=60&save-as=jpg 512w"
+                        sizes="
+                            (max-width: 400px) 300px,
+                            (max-width: 767px) 512px,
+                            (max-width: 1000px) 250px,
+                            (max-width: 1400px) 300px,
+                            512px"
+                        alt="Galleribild"
+                    >
+                </a>
+                <a href="{{ base_url }}/image/gallery/bild9.png">
+                    <img 
+                        class="flash-img"
+                        src="{{ base_url }}/image/gallery/bild9.png"
+                        srcset="
+                            {{ base_url }}/image/gallery/bild9.png&q=60&w=300&save-as=jpg 300w,
+                            {{ base_url }}/image/gallery/bild9.png&q=60&w=250&save-as=jpg 250w,
+                            {{ base_url }}/image/gallery/bild9.png&q=60&save-as=jpg 512w"
+                        sizes="
+                            (max-width: 400px) 300px,
+                            (max-width: 767px) 512px,
+                            (max-width: 1000px) 250px,
+                            (max-width: 1400px) 300px,
+                            512px"
+                        alt="Galleribild"
+                    >
+                </a>
+            </div>
+            {{ content }}
+        </div>
+    </div>
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
