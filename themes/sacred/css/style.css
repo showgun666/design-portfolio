@@ -6468,16 +6468,6 @@ body {
   padding-right: 16.6666666667%;
 }
 
-@media (max-width: 767px) {
-  html {
-    font-size: 112.5%;
-  }
-  body {
-    width: 87.5%;
-    padding-left: 6.25%;
-    padding-right: 6.25%;
-  }
-}
 .main {
   font-family: "Open Sans", sans-serif;
   padding-left: 0.5em;
@@ -6534,6 +6524,32 @@ body {
   padding-right: 0.5em;
 }
 
+ul {
+  flex-wrap: wrap;
+}
+
+.nav-button {
+  padding: 0.5em 0.5em;
+  letter-spacing: 0.1em;
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 112.5%;
+  }
+  body {
+    width: 87.5%;
+    padding-left: 6.25%;
+    padding-right: 6.25%;
+  }
+  .nav {
+    justify-content: center;
+  }
+  .nav-button {
+    padding: 0 1em;
+    letter-spacing: 0.1em;
+  }
+}
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6739,9 +6755,6 @@ pre code {
   padding: 2em;
 }
 
-.analysis-side {
-  width: 30%;
-}
 .analysis-side ul {
   list-style-type: none;
   padding: 1em;
@@ -6752,6 +6765,26 @@ pre code {
   width: auto;
 }
 
+.analyser {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.kmom04 {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+.kmom05 {
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+
+.kmom06 {
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
+
 @media (max-width: 767px) {
   .kmom04-page {
     grid-template-columns: 95%;
@@ -6760,6 +6793,61 @@ pre code {
     display: none;
   }
   .analysis-content {
+    width: 100%;
+  }
+}
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.google-sheet {
+  padding-bottom: 0;
+  height: 40vh;
+  width: 100%;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  grid-template-rows: auto;
+  justify-content: space-evenly;
+}
+.gallery-container a {
+  width: 100%;
+}
+.gallery-container img {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 767px) {
+  .gallery-container {
+    grid-template-columns: 100%;
+  }
+  .gallery-container img {
     width: 100%;
   }
 }
