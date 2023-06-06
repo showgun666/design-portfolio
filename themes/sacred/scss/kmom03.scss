@@ -95,7 +95,7 @@
 }
 
 // Responsivitet
-@media (max-width: 767px) {
+@media (max-width: $mobile-width) {
     .kmom03-page {
         grid-template-columns: 95%;
     }
