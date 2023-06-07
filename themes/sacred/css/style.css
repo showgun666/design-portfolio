@@ -6462,7 +6462,7 @@ h6 {
 
 body {
   line-height: 1.4;
-  background-color: #14b7ff;
+  background-color: #fff;
   width: 66.6666666667%;
   padding-left: 16.6666666667%;
   padding-right: 16.6666666667%;
@@ -6475,7 +6475,7 @@ body {
 }
 
 .header {
-  background-color: #2045fe;
+  background-color: #14b7ff;
   color: #d3d3d3;
   padding-left: 0.5em;
   padding-right: 0.5em;
