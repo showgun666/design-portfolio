@@ -27,7 +27,7 @@ Resultat
 -----------------------
 
 <h3>Aftonbladet</h3>
-<a href="../assets/img/aftonbladet.jpg">
+<a href="../assets/img/aftonbladet.jpg" aria-label="link to full size image">
     <img title="aftonbladet" alt="en screenshot på aftonbladets hemsida" src="../assets/img/aftonbladet.jpg" width="100%">
 </a>
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -50,7 +50,7 @@ I headern så är det också väldigt luftigt kring logotyp, väder och sökruta
 Mellan artiklarna används en tunn slinga whitespace och när användaren direkt kommer till första sidan så artiklar med ett jämnt avstånd mellan irregulära antal artiklar, artiklar som också är olika storlek. Sedan efter några stycken med dessa 3-10 olika artiklar eller reklamer m.m så faller det på regulära 4 artiklar eller annonser med ett mellanrum som tycks vara lika stor som en medelstor nyhetsartikel, för att sedan återgå till irregulära antal artiklar tills vi slutligen når sidans footer.
 
 <h3>Svenska Dagbladet</h3>
-<a href="../assets/img/svd.jpg">
+<a href="../assets/img/svd.jpg" aria-label="link to full size image">
     <img title="svenska dagbladet" alt="en screenshot på svenska dagbladets hemsida" src="../assets/img/svd.jpg" width="100%">
 </a>
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -70,7 +70,7 @@ Blått används mycket för att dra intresse till särskilt utvalda element, så
 Typsnittet som används främst är med serifer men för vissa knappar, kategorier och små underrubriker till bilder m.m används ett sans-serif-typsnitt. Ett sans-seriftypsnitt används också för text i footern och i rutan som ber användaren att prenumerera på sidan. Fetstilt används också för rubriker, författare och i artiklarna så inleds artiklarna ofta med en text i fetstilt och sedan används ibland begynnelsebokstäver i fetstilt eller första ordet i fetstilt. Radavstånden är något luftigare här än i aftonbladet medan avståndet mellan stycken är större i aftonbladet än hos SvD. Fontstorleken i sig är också större på SvDs hemsida, men bredden på raderna tycks vara ungefär lika, trots att tecknen är större på SvD.
 
 <h3>Nya tider</h3>
-<a href="../assets/img/nyatider.jpg">
+<a href="../assets/img/nyatider.jpg" aria-label="link to full size image">
     <img title="nya tider" alt="en screenshot på nya tiderss hemsida" src="../assets/img/nyatider.jpg" width="100%">
 </a>
 <table style="border-spacing: 4px; border-collapse: separate">

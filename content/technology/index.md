@@ -5,36 +5,35 @@ Template: technologies
 ---
 
 <div class="course-box css">
-    <h2>CSS</h2>
-    <a href="./technology/css" class="link"></a>
+    <a href="./technology/css" class="link"><h2>CSS</h2></a>
 </div>
 
 <div class="course-box html">
-    <h2>HTML</h2>
-    <a href="./technology/html" class="link"></a>
+    <a href="./technology/html" class="link">
+    <h2>HTML</h2></a>
 </div>
 
 <div class="course-box javascript">
-    <h2>Javascript</h2>
-    <a href="./technology/javascript" class="link"></a>
+    <a href="./technology/javascript" class="link">
+    <h2>Javascript</h2></a>
 </div>
 
 <div class="course-box php">
-    <h2>PHP</h2>
-    <a href="./technology/php" class="link"></a>
+    <a href="./technology/php" class="link">
+    <h2>PHP</h2></a>
 </div>
 
 <div class="course-box python">
-    <h2>Python</h2>
-    <a href="./technology/python" class="link"></a>
+    <a href="./technology/python" class="link">
+    <h2>Python</h2></a>
 </div>
 
 <div class="course-box git">
-    <h2>GIT</h2>
-    <a href="./technology/git" class="link"></a>
+    <a href="./technology/git" class="link">
+    <h2>GIT</h2></a>
 </div>
 
 <div class="course-box sqlite">
-    <h2>SQLITE</h2>
-    <a href="./technology/sqlite" class="link"></a>
+    <a href="./technology/sqlite" class="link">
+    <h2>SQLITE</h2></a>
 </div>

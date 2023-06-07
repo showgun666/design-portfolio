@@ -19,7 +19,7 @@ Till min hjälp så använde jag mig utav https://pagespeed.web.dev/ som är ett
 
 Resultat
 -----------------------
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRQPwjunhaW2xGpuN64puPxr628gKN1wr3_RGJQ11Z7h6uPQZV-bmhWK9k977Dm8IsbiDqEeXTKpcI9/pubhtml?widget=true&amp;headers=false" class="embed-container google-sheet"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRQPwjunhaW2xGpuN64puPxr628gKN1wr3_RGJQ11Z7h6uPQZV-bmhWK9k977Dm8IsbiDqEeXTKpcI9/pubhtml?widget=true&amp;headers=false" class="embed-container google-sheet" title="google sheet of results"></iframe>
 <a href="%base_url%/image/imgur.jpg" target="_blank">
     ![Bild på imgur](%base_url%/image/imgur.jpg?w=800)
 </a>
