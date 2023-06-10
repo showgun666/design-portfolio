@@ -15,6 +15,6 @@ Template: analysis
 </div>
 
 <div class="course-box kmom06">
-    <a href="./analysis/kmom06" class="link">
-    <h2>KMOM06</h2></a>
+    <a href="./analysis/03_designprincip" class="link">
+    <h2>KMOM06 - Designprinciper</h2></a>
 </div>
