@@ -39,6 +39,8 @@ h6 {
 }
 
 body {
+    background: radial-gradient(circle at 100%, transparent 30%, rgba(255,255,255,.4) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent), radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+    background-size: 75px 100px;
     line-height: 1.4;
     background-color: $background-color;
     width: calc(100% / 12 * 8);
@@ -48,10 +50,12 @@ body {
 
 
 .main {
+    background: $background-color;
     font-family: 'Open Sans', sans-serif;
-    
     padding-left: 0.5em;
     padding-right: 0.5em;
+    border-left: 4px solid $accent-color;
+    border-right: 4px solid $accent-color;
 }
 
 
@@ -76,7 +80,8 @@ body {
 
     .nav a:hover {
         background-color: $accent-color;
-        color: $font-alternative-color;
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
     }
 }
 
@@ -106,6 +111,7 @@ body {
     display: flex;
     padding-left: 0.5em;
     padding-right: 0.5em;
+    background: $accent-color;
 
     .social {
         padding-top: 1em;
