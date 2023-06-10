@@ -6461,6 +6461,8 @@ h6 {
 }
 
 body {
+  background: radial-gradient(circle at 100%, transparent 30%, rgba(255, 255, 255, 0.4) 21%, rgba(255, 255, 255, 0.3) 34%, transparent 35%, transparent), radial-gradient(circle at 0% 50%, transparent 20%, rgba(255, 255, 255, 0.3) 21%, rgba(255, 255, 255, 0.3) 34%, transparent 35%, transparent) 0 -50px;
+  background-size: 75px 100px;
   line-height: 1.4;
   background-color: #fff;
   width: 66.6666666667%;
@@ -6469,9 +6471,12 @@ body {
 }
 
 .main {
+  background: #fff;
   font-family: "Open Sans", sans-serif;
   padding-left: 0.5em;
   padding-right: 0.5em;
+  border-left: 4px solid #6c14ff;
+  border-right: 4px solid #6c14ff;
 }
 
 .header {
@@ -6493,7 +6498,8 @@ body {
 }
 .header .nav a:hover {
   background-color: #6c14ff;
-  color: #d3d3d3;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .social p {
@@ -6518,6 +6524,7 @@ body {
   display: flex;
   padding-left: 0.5em;
   padding-right: 0.5em;
+  background: #6c14ff;
 }
 .container .social {
   padding-top: 1em;
@@ -6598,6 +6605,7 @@ pre code {
   padding: 2em;
   display: block;
   position: relative;
+  background: #14b7ff;
 }
 
 .course-box:hover {
